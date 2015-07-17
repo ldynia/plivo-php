@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Helper\Plivo;
+
+use Exception;
+
 // try to use HTTP/Request2 else use curl
 if ((@include 'HTTP/Request2.php') == 'OK') {
     define("PLIVO_USE_CURL", FALSE);
@@ -22,7 +26,7 @@ function validate_signature($uri, $post_params=array(), $signature, $auth_token)
 }
 
 
-class RestAPI {
+class PlivoApi {
     private $api;
 
     private $auth_id;
