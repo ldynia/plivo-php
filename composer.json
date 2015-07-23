@@ -1,5 +1,5 @@
 {
-    "name": "ldynia/plivo-php",
+    "name": "plivo/plivo-php",
     "description": "Plivo PHP Helper Library with Composer Support",
     "authors": [
         {
