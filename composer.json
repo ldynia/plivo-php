@@ -5,7 +5,7 @@
         {
             "name": "Adam Homsi",
             "email": "adam.homsi@gmail.com"
-        },
+        }
     ],
     "license": "MIT",
     "require": {
