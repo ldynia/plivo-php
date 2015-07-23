@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helper\Plivo;
+namespace Plivo;
 
 use Exception;
 
